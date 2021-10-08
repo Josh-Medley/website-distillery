@@ -48,6 +48,7 @@ div {
 	left: 5rem;
 	bottom: 3rem;
 	padding: 25pt;
+	display: flex;
 }
 
 .h1 {
@@ -78,6 +79,7 @@ div {
 	margin-left: 20pt;
 	margin-right: 40pt;
 	position: relative;
+	top: 3rem;
 }
 
 .account {
@@ -88,6 +90,7 @@ div {
 	margin-left: 20pt;
 	margin-right: 40pt;
 	position: relative;
+	top: 3rem;
 }
 
 .search {
@@ -106,7 +109,8 @@ div {
 	margin: auto;
 	margin-top: 0pt;
 	margin-bottom: 15pt;
-	position: grid;
+	position: relative;
+	display: flex;
 }
 
 .manga1 {
