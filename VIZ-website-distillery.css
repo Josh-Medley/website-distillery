@@ -28,7 +28,7 @@ body {
   box-sizing: border-box;
 }
 
-.box {
+box {
     display: flex;
     align-content: center;
     align-items: center;
@@ -87,13 +87,30 @@ fav {border: solid black 1pt;
   margin-bottom: 15pt
 }
 
-.products {
+products {
 	position: relative;
 	top: 2rem;
 	left: 5rem;
 	bottom: 3rem;
 	padding: 25pt;
 	border: 1pt solid red;
+}
+
+manga1 {
+    background-color: var(--gray); 
+    border: solid black 1pt;
+    height: 120pt;
+    width: 45%;
+  margin-left: auto;
+  margin-top: 0pt;
+}
+manga2 {
+    background-color: var(--gray); 
+    border: solid black 1pt;
+  margin-left: auto;
+  margin-top: 0pt;
+    height: 120pt;
+  width: 45%;
 }
 
 p1 {
