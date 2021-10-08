@@ -42,53 +42,66 @@ body {
   box-sizing: border-box;
 }
 
-box {
+div {
+	max-width: 400px;	
+}
+
+.box {
 	display: flex;
 	align-content: center;
 	align-items: center;
 	justify-content: center;
 	padding: 1rem;
+	position: relative;
+	top: 2rem;
+	left: 5rem;
+	bottom: 3rem;
+	padding: 25pt;
 }
 
 h1 {
-	background-color: grey;
 	height: 40pt;
-	border: solid black 1pt;
+	position: relative;
 }
 
 h2 {
-	background-color: grey;
-	height: 40pt;
-	border: solid black 1pt;
+	height: 20pt;
+	position: relative;
 }
 
-logo { 
+.logo { 
 	background-color: red;
 	border: solid black 1pt;
 	height: 10pt;
 	width: 350pt;
 	margin-left: 20pt;
 	margin-right: 40pt;
+	position: relative;
 }
 
-account {
+.account {
 	background-color: red;
 	border: solid black 1pt;
 	height: 10pt;
 	width: 350pt;
 	margin-left: 20pt;
 	margin-right: 40pt;
+	position: relative;
 }
 
-search {
+.search {
 	background-color: red;
-	border: solid black 1pt;
+	border: solid grey 1pt;
 	height: 10pt;
 	width: 380pt;
 	margin-right: 20pt;
+	position: relative;
+	padding: 10px 0 10px 10px;
+	padding-right: 15pt;
+	top: 3rem;
 }
 
-fav {
+.fav {
 	background-color: grey;
 	border: solid black 1pt;
 	height: 120pt;
@@ -96,23 +109,30 @@ fav {
 	margin: auto;
 	margin-top: 0pt;
 	margin-bottom: 15pt;
+	position: relative;
 }
 
-manga1 {
+.manga1 {
 	background-color: grey; 
-	border: solid black 1pt;
+	border: solid red 1pt;
 	height: 120pt;
 	width: 45%;
 	margin-left: auto;
 	margin-top: 0pt;
+	position: relative;
+	padding: 4pt;
+	top: 7rem;
 }
-manga2 {
+.manga2 {
 	background-color: grey;
-	border: solid black 1pt;
+	border: solid red 1pt;
 	height: 120pt;
 	width: 45%;
 	margin-left: auto;
 	margin-top: 0pt;
+	position: relative;
+	padding: 4pt;
+	top: 7rem;
 }
 
 p {
