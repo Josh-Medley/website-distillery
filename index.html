@@ -6,37 +6,39 @@
 	<link rel="stylesheet" href="VIZ-website-distillery.css">
 <title>VIZ | The Best in Manga, Anime &amp; Global Entertainment</title>
 <style>
-		@media only screen and (min-width: 768px) {
-	wrapper{
-		display: flex;
-		flex-wrap: wrap;
-		margin-left: auto;
-		margin-right: auto;
-		max-width: 1400px;		
-	}
 	content {
 		max-width: 400px;
-	}
-	body {
-		background: white;
-		align-content: left;
-	}
-	section {
-		padding: 4rem;
-			}
 }
 
-		@media only screen and (max-width: 900px) {
-	content {
-		max-width: 800px;
-	}
 	body {
 		background: white;
 		align-content: left;
-			}
+}
+
 	section {
-		height: 150px;
-	}
+		padding: 4rem;
+}
+
+	body {
+		background: white;
+		align-content: left;
+}
+
+	section {
+		max-width: 1200px;
+		margin: 0 auto 1rem;
+		outline: 1px solid black;
+}
+
+	header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		max-width: 1200px;
+		margin: 0 auto .5rem;
+		padding: 1rem;
+}
+
 	h1 {
 		font-size: 40pt;
 		height: 40pt;
@@ -46,7 +48,8 @@
 		position: relative;
 		padding: 4pt;
 		top: 7rem;
-	}
+}
+
 	h2 {
 		font-size: 20pt;
 		height: 20pt;
@@ -56,28 +59,60 @@
 		position: relative;
 		padding: 4pt;
 		top: 7rem;
-	}
-	a:link {
-		font-size: 20pt;		
-			}
 }
 
-@media screen and (min-width: 1024px) {
-/* laptop */
-	
+	a:link {
+		font-size: 20pt;		
 }
-@media screen and (min-width: 1200px) {
-/* desktop */
+			
+.c-navigation-left  {
+    display: none;
+    outline: 1px solid black;
+    padding: .5rem 1rem;
+}
+
+.c-navigation-right  {
+    outline: 1px solid black;
+    padding: .5rem 1rem;
+}
+
+@media only screen and (min-width: 768px) {
+	wrapper {
+		display: flex;
+		flex-wrap: wrap;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1400px;		
+}
+		
+@media screen and (min-width: 768px) {
+    .c-navigation-left  {
+        display: block;
+}
+
+    .c-navigation-left, .c-navigation-right  {
+        min-width: 250px;
+        text-align: center;
+}
+
+    .c-navigation  {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-left: 2rem;
 }
 </style>
 </head>
 <body>
 	<header>
-	<div>
-			<nav class="logo">VIZ</nav>
-	</div>
-	<div>
-			<nav class="account">Log In - Sign Up - My Library</nav>
+			<div class="logo">
+				VIZ
+		</div>
+	<div class="c-navigation box">
+		<nav class="c-navigation-right box">
+                Log In - Sign Up - My Library
+            </nav>
+		
 	</div>
 	<div>
 		<div class="search">Search</div>
