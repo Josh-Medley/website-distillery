@@ -44,12 +44,12 @@ div {
 	padding: 25pt;
 }
 
-h1 {
+.h1 {
 	height: 40pt;
 	position: relative;
 }
 
-h2 {
+.h2 {
 	height: 20pt;
 	position: relative;
 }
