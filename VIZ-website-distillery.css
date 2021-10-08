@@ -75,14 +75,10 @@ h2 {
 }
 
 .search {
-	background-color: red;
-	border: solid grey 1pt;
-	height: 10pt;
-	width: 380pt;
-	margin-right: 20pt;
 	position: relative;
 	padding: 10px 0 10px 10px;
 	padding-right: 15pt;
+	border: 1pt solid red;
 	top: 3rem;
 }
 
