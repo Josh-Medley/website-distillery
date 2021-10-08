@@ -149,16 +149,11 @@ a:link {
 	background-color: grey; 
 	border: solid red 1pt;
 	height: 120pt;
-	width: 120pt;
-	margin: auto;
-	margin-left: auto;
-	margin-top: 0pt;
-	margin-bottom: 15pt;
+	width: 45%;
 	position: relative;
-	padding: 4pt;
+	padding: 10px 0 10px 10px;
 	padding-right: 15pt;
 	top: 7rem;
-	display: flex;
 }
 
 p {
