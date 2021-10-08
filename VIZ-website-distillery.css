@@ -140,7 +140,7 @@ explore {
 }
 
 help {
-	border: solid black 4pt;
+	border: solid black 3pt;
 	background-color: grey;
 	margin-top: 15pt;
 	width:100%;
@@ -150,7 +150,7 @@ help {
 navigationbottom {
 	background-color: grey;
 	width:100%;
-	border: solid black 2pt;
+	border: solid black 3pt;
 }
 
 @media screen and (min-width: 768px) {
