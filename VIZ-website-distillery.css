@@ -16,7 +16,7 @@ body {
 }
 
 .container{
-	display: flex;
+	display: block;
 	align-content: center;
 	align-items: center;
 	justify-content: center;
@@ -36,7 +36,7 @@ main {
 
 logo { 
 	background-color: red;
-	border: solid black 1pt;
+	border: solid red 1pt;
 	width: 70pt;
 	height: 10pt; 
 	margin-left: 40pt;
@@ -44,15 +44,15 @@ logo {
 }
 
 search {
-	background-color: red; 
-	border: solid black 1pt;
+	background-color: white; 
+	border: solid grey 1pt;
 	height: 10pt;
 	width: 380pt;
 	margin-right: 20pt;
 }
 
 account {
-	background-color: red; 
+	background-color: grey; 
 	border: solid black 1pt;
 	height: 10pt;
 	width: 350pt;
@@ -61,7 +61,7 @@ account {
 }
 
 navigation {
-	background-color: red; 
+	background-color: grey; 
 	border: solid black 1pt;
 	height: 10pt;
 	width: 550pt;
@@ -71,8 +71,8 @@ navigation {
 }
 
 featuredtitles {
-	border: solid black 1pt;
-	background-color: red; 
+	border: solid red 3pt;
+	background-color: white; 
 	width: 120pt;
 	height: 120pt;
 	margin:auto;
@@ -80,8 +80,8 @@ featuredtitles {
 }
 
 fav {
-	border: solid black 1pt;
-	background-color: red; 
+	border: solid black 3pt;
+	background-color: white; 
 	width: 120pt;
 	height: 120pt;
 	margin: auto;
@@ -120,8 +120,8 @@ promo {
 }
 
 product {
-	background-color: red;
-	border: solid black 1pt;
+	background-color: white;
+	border: solid red 2pt;
 	height: 200pt;
 	width: 150pt;
 	margin-left: 50pt;
@@ -130,28 +130,27 @@ product {
 }
 
 explore {
-	background-color: red;
-	border: solid black 1pt;
-	height: 100pt;
-	width: 100pt;
+	border: solid red 2pt;
+	background-color: white; 
+	width: 120pt;
+	height: 120pt;
+	margin: auto;
 	margin-top: 0pt;
-	margin-right: 28pt;
-	margin-left: 45pt;
-	margin-bottom: 30pt;
+	margin-bottom: 15pt
 }
 
 help {
-	border: solid black 1pt;
-	background-color: red;
+	border: solid black 4pt;
+	background-color: grey;
 	margin-top: 15pt;
 	width:100%;
 	height: 50pt;
 }
 
 navigationbottom {
-	background-color: red;
+	background-color: grey;
 	width:100%;
-	border: solid black 1pt;
+	border: solid black 2pt;
 }
 
 @media screen and (min-width: 768px) {
