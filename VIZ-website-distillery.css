@@ -145,29 +145,20 @@ a:link {
 	top: 3rem;
 }
 
-.fav {
-	background-color: grey;
-	border: solid black 1pt;
-	height: 120pt;
-	width: 120pt;
-	margin: auto;
-	margin-top: 0pt;
-	margin-bottom: 15pt;
-	position: relative;
-	display: flex;
-}
-
 .manga {
 	background-color: grey; 
 	border: solid red 1pt;
 	height: 120pt;
-	width: 45%;
+	width: 120pt;
+	margin: auto;
 	margin-left: auto;
 	margin-top: 0pt;
+	margin-bottom: 15pt;
 	position: relative;
 	padding: 4pt;
 	padding-right: 15pt;
 	top: 7rem;
+	display: flex;
 }
 
 p {
