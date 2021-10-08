@@ -58,7 +58,11 @@
 	a:link {
 		font-size: 20pt;		
 }
-			
+
+.c-logo {
+    max-width: 125px;
+}
+
 .c-navigation-left  {
     display: none;
     outline: 1px solid black;
