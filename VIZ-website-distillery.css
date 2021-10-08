@@ -39,7 +39,6 @@ div {
 }
 
 .box {
-	display: flex;
 	align-content: center;
 	align-items: center;
 	justify-content: center;
@@ -53,12 +52,22 @@ div {
 
 .h1 {
 	height: 40pt;
+	width: 45%;
+	margin-left: auto;
+	margin-top: 0pt;
 	position: relative;
+	padding: 4pt;
+	top: 7rem;
 }
 
 .h2 {
 	height: 20pt;
+	width: 45%;
+	margin-left: auto;
+	margin-top: 0pt;
 	position: relative;
+	padding: 4pt;
+	top: 7rem;
 }
 
 .logo { 
@@ -97,7 +106,7 @@ div {
 	margin: auto;
 	margin-top: 0pt;
 	margin-bottom: 15pt;
-	position: relative;
+	position: grid;
 }
 
 .manga1 {
