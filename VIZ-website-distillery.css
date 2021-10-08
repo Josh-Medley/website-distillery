@@ -44,8 +44,8 @@ logo {
 }
 
 search {
-	background-color: white; 
-	border: solid grey 1pt;
+	background-color: grey; 
+	border: solid black 1pt;
 	height: 10pt;
 	width: 380pt;
 	margin-right: 20pt;
@@ -61,8 +61,8 @@ account {
 }
 
 navigation {
-	background-color: grey; 
-	border: solid black 1pt;
+	background-color: white; 
+	border: solid grey 1pt;
 	height: 10pt;
 	width: 550pt;
 	margin-left: 475pt;
@@ -80,7 +80,7 @@ featuredtitles {
 }
 
 fav {
-	border: solid black 3pt;
+	border: solid black 2pt;
 	background-color: white; 
 	width: 120pt;
 	height: 120pt;
@@ -120,8 +120,8 @@ promo {
 }
 
 product {
-	background-color: white;
 	border: solid red 2pt;
+	background-color: white;
 	height: 200pt;
 	width: 150pt;
 	margin-left: 50pt;
@@ -130,7 +130,7 @@ product {
 }
 
 explore {
-	border: solid red 2pt;
+	border: solid black 2pt;
 	background-color: white; 
 	width: 120pt;
 	height: 120pt;
