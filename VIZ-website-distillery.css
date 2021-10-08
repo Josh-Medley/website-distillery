@@ -160,3 +160,11 @@ p {
 	max-width: 50%;
 	font-size: 20pt;
 }
+
+shape {border: solid black 1pt;
+  background-color: grey; 
+  width: 120pt;
+  height: 120pt;
+  margin:auto;
+  margin-bottom: 20pt;
+}
