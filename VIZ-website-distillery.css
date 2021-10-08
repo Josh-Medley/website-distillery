@@ -65,10 +65,19 @@ h2 {
 logo { 
 	background-color: red;
 	border: solid black 1pt;
-	width: 70pt;
 	height: 10pt;
-	margin-left: 40pt;
-	margin-right: 20pt;
+	width: 350pt;
+	margin-left: 20pt;
+	margin-right: 40pt;
+}
+
+account {
+	background-color: red;
+	border: solid black 1pt;
+	height: 10pt;
+	width: 350pt;
+	margin-left: 20pt;
+	margin-right: 40pt;
 }
 
 search {
